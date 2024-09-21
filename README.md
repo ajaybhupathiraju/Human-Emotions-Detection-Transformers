@@ -46,7 +46,6 @@ smaller dataset.                                                                
 ## Assumptions
 1. Vision Transformers need powerful hardware (GPUs, TPUs) for training on large datasets. Due to limitations on my local machine, I'm using pre-trained models from Hugging Face and fine-tuning them for my project.
 2. Instead of processing entire images, the image is divided into fixed-size patches. visual transformations can be effectively represented by patches of size (16 x 16).
-3. Vision Transformer models tend to require significantly larger datasets due to limitation on my local computer hardware consider only subset of data images.
 
 ## Machine learning model
    ## custom vit model
