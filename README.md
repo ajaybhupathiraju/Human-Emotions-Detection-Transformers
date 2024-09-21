@@ -44,6 +44,8 @@ smaller dataset.                                                                
 ![alt text](images/EDA_HumanEmotions.jpg)
 
 ## Machine learning model
+   - [**Code for Vision Transformer scratch **](EDA_HeartDisease.ipynb)
+   - [**Using Hugging Face pre trained model **](EDA_HeartDisease.ipynb)
 
 ## Assumptions
 
