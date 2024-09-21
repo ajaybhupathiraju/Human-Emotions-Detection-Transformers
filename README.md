@@ -10,7 +10,6 @@ Human emotions detection using transformers to detect and classify emotions from
 - [Machine learning model](#machine-learning-model)
   - [Vision Transformer from scratch](#custom-vit-model)
   - [Using pretrained hugging face model](#hugging-face-pre-trained-model)
-- [Performance metrics](#performance-metrics)
 - [Loss function](#loss-function)
 - [Making Predictions](#making-predictions)
 - [Deployee model](#deployee-model)
@@ -54,8 +53,6 @@ smaller dataset.                                                                
    ## hugging face pre trained model
    - [**Using Hugging Face pre trained model **](Pretrained_HuggingFaceModel.ipynb)
     
-## Performance metrics
-
 ## Loss function
 used categorical crossentropy as loss function
 
