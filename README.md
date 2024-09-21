@@ -35,4 +35,10 @@ Human emotions detection using transformers to detect and classify emotions from
       -  sad
 
 ## Why Transformers over CNN
-sdas
+
+Convolution Nueral Network                                                                 |             Transformers                                                                                                             | 
+-----------------------------------------------------------------------------------------  | ----------------------------------------------------------------------------------------------------------------------------         | 
+Using convolutional layers to capture local patterns in data edges & textures etc          |   Transformers don't use convolutional or pooling operations instead, they rely on fully connected layers and attention mechanisms. | 
+max-pooling - reduce dimentionality of data<br>flattened   - fed data into fully connected layers for classification or regression tasks.|Attention allows models to dynamically focus on pertinent parts of the input data.                                        
+smaller dataset.                                                                            |   Larger datasets.                                                                                                                 | 
+
