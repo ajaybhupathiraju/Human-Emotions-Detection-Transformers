@@ -6,15 +6,12 @@ Human emotions detection using transformers to detect and classify emotions from
 - [Data Sources](#data-sources)
 - [Why Transformers choosen over convolution neural networks](#why-transformers-over-cnn)
 - [EDA](#exploratory-data-analysis)
-- [Recommendations](#recommendations)
 - [Machine learning model](#machine-learning-model)
   - [Vision Transformer build from scratch](#custom-vit-model)
   - [using pretrained hugging face model](#huggingface-tfvitmodel)
 - [Assumptions](#assumptions)
 - [Performance metrics](#performance-metrics)
 - [Loss function](#loss-function)
-- [Choosing a Model](#choosing-a-model)
-- [Training the Model](#training-the-model)
 - [Making Predictions](#making-predictions)
 - [Deployee model](#deployee-model)
 
@@ -42,3 +39,34 @@ Using convolutional layers to capture local patterns in data edges & textures et
 max-pooling - reduce dimentionality of data<br>flattened   - fed data into fully connected layers for classification or regression tasks.|Attention allows models to dynamically focus on pertinent parts of the input data.                                        
 smaller dataset.                                                                            |   Larger datasets.                                                                                                                 | 
 
+## Exploratory Data Analysis
+
+## Machine learning model
+
+## Assumptions
+
+## Performance metrics
+
+## Loss function
+
+## Making predictions
+
+## Deployee model
+Deployee the model into my local machine using fastAPI.
+
+[**source code**](/deployement/ml_api.py)
+
+Running a fastAPI server:
+
+![alt text](images/deployee_to_fastAPI.jpg)
+
+
+Test Model:
+input : [40,1,2,140,289,0,0,172,0,0.0,1]
+
+![alt text](images/test_ml_model.jpg)
+
+
+Results:
+
+![alt text](images/results.jpg)
