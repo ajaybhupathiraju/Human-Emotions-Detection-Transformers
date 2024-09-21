@@ -41,6 +41,8 @@ smaller dataset.                                                                
 
 ## Exploratory Data Analysis
 
+![alt text](images/EDA_HumanEmotions.jpg)
+
 ## Machine learning model
 
 ## Assumptions
