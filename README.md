@@ -4,7 +4,7 @@ Human Emotions Detection using Transformers detect and classify emotions from im
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
-- [Why Transformers choosen over convolution neural networks](#transformers-cnn)
+- [Why Transformers choosen over convolution neural networks](#why-transformers-over-cnn)
 - [EDA](#exploratory-data-analysis)
 - [Recommendations](#recommendations)
 - [Machine learning model](#machine-learning-model)
@@ -34,5 +34,5 @@ Human Emotions Detection using Transformers detect and classify emotions from im
       -  appy
       -  sad
 
-## Transformers CNN
+## Why Transformers over CNN
 sdas
