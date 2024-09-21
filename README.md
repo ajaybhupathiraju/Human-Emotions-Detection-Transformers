@@ -3,8 +3,8 @@ Human Emotions Detection using Transformers detect and classify emotions from im
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Why Transformers choosen over convolution neural networks](#transformers-cnn)
 - [Data Sources](#data-sources)
+- [Why Transformers choosen over convolution neural networks](#transformers-cnn)
 - [EDA](#exploratory-data-analysis)
 - [Recommendations](#recommendations)
 - [Machine learning model](#machine-learning-model)
@@ -21,10 +21,10 @@ Human Emotions Detection using Transformers detect and classify emotions from im
 
 ## Project Overview
   
-  The goal of this project is to build a model that detects human emotions (e.g., happiness, sadness, anger etc ) from images.
-  downloaded dataset from kaggle contains train and test.
-  
-  Kaggle dataset is organized into subfolders for each emotion
+  The goal of this project is to build a model using vision transformers that detects human emotions (e.g., happiness, sadness, anger etc ) from images, each image is of different dimentions.
+
+## Data Sources 
+  Downloaded dataset from kaggle and its is organized into subfolders for each emotion
    - Train Folder:
       -  angry
       -  happy
@@ -33,4 +33,6 @@ Human Emotions Detection using Transformers detect and classify emotions from im
       -  angry
       -  appy
       -  sad
-  
+
+## Transformers CNN
+sdas
