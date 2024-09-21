@@ -7,8 +7,8 @@ Human emotions detection using transformers to detect and classify emotions from
 - [Why Transformers choosen over convolution neural networks](#why-transformers-over-cnn)
 - [EDA](#exploratory-data-analysis)
 - [Machine learning model](#machine-learning-model)
-  - [Vision Transformer build from scratch](#custom-vit-model)
-  - [using pretrained hugging face model](#huggingface-tfvitmodel)
+  - [Vision Transformer from scratch](#custom-vit-model)
+  - [Using pretrained hugging face model](#hugging-face-pretrained-model)
 - [Assumptions](#assumptions)
 - [Performance metrics](#performance-metrics)
 - [Loss function](#loss-function)
@@ -44,10 +44,10 @@ smaller dataset.                                                                
 ![alt text](images/EDA_HumanEmotions.jpg)
 
 ## Machine learning model
-   ## custom-vit-model
+   ## custom vit model
    - [**Code for Vision Transformer scratch **](VITModel.ipynb)
      
-   ## huggingface-tfvitmodel
+   ## hugging face pretrained model
    - [**Using Hugging Face pre trained model **](VITModel.ipynb)
     
 
