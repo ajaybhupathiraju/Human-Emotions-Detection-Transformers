@@ -48,7 +48,7 @@ smaller dataset.                                                                
    - [**Code for Vision Transformer scratch **](VITModel.ipynb)
      
    ## hugging face pre trained model
-   - [**Using Hugging Face pre trained model **](VITModel.ipynb)
+   - [**Using Hugging Face pre trained model **](Pretrained_HuggingFaceModel.ipynb)
     
 
 ## Assumptions
