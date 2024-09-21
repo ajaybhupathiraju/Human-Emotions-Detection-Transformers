@@ -6,10 +6,10 @@ Human emotions detection using transformers to detect and classify emotions from
 - [Data Sources](#data-sources)
 - [Why Transformers choosen over convolution neural networks](#why-transformers-over-cnn)
 - [EDA](#exploratory-data-analysis)
+- [Assumptions](#assumptions)
 - [Machine learning model](#machine-learning-model)
   - [Vision Transformer from scratch](#custom-vit-model)
   - [Using pretrained hugging face model](#hugging-face-pre-trained-model)
-- [Assumptions](#assumptions)
 - [Performance metrics](#performance-metrics)
 - [Loss function](#loss-function)
 - [Making Predictions](#making-predictions)
@@ -43,6 +43,11 @@ smaller dataset.                                                                
 
 ![alt text](images/EDA_HumanEmotions.jpg)
 
+## Assumptions
+1. Vision Transformers need powerful hardware (GPUs, TPUs) for training on large datasets. Due to limitations on my local machine, I'm using pre-trained models from Hugging Face and fine-tuning them for my project.
+2. Instead of processing entire images, the image is divided into fixed-size patches. visual transformations can be effectively represented by patches of size (16 x 16).
+3. Vision Transformer models tend to require significantly larger datasets due to limitation on my local computer hardware consider only subset of data images.
+
 ## Machine learning model
    ## custom vit model
    - [**Code for Vision Transformer scratch **](VITModel.ipynb)
@@ -50,9 +55,6 @@ smaller dataset.                                                                
    ## hugging face pre trained model
    - [**Using Hugging Face pre trained model **](Pretrained_HuggingFaceModel.ipynb)
     
-
-## Assumptions
-
 ## Performance metrics
 
 ## Loss function
