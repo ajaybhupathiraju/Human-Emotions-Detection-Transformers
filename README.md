@@ -44,8 +44,12 @@ smaller dataset.                                                                
 ![alt text](images/EDA_HumanEmotions.jpg)
 
 ## Machine learning model
+   ## custom-vit-model
    - [**Code for Vision Transformer scratch **](VITModel.ipynb)
+     
+   ## huggingface-tfvitmodel
    - [**Using Hugging Face pre trained model **](VITModel.ipynb)
+    
 
 ## Assumptions
 
