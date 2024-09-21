@@ -1,5 +1,5 @@
 # Human-Emotions-Detection-Transformers
-Human Emotions Detection using Transformers detect and classify emotions from images
+Human emotions detection using transformers to detect and classify emotions from images. 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
