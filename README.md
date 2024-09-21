@@ -8,7 +8,7 @@ Human emotions detection using transformers to detect and classify emotions from
 - [EDA](#exploratory-data-analysis)
 - [Machine learning model](#machine-learning-model)
   - [Vision Transformer from scratch](#custom-vit-model)
-  - [Using pretrained hugging face model](#hugging-face-pretrained-model)
+  - [Using pretrained hugging face model](#hugging-face-pre-trained-model)
 - [Assumptions](#assumptions)
 - [Performance metrics](#performance-metrics)
 - [Loss function](#loss-function)
@@ -47,7 +47,7 @@ smaller dataset.                                                                
    ## custom vit model
    - [**Code for Vision Transformer scratch **](VITModel.ipynb)
      
-   ## hugging face pretrained model
+   ## hugging face pre trained model
    - [**Using Hugging Face pre trained model **](VITModel.ipynb)
     
 
