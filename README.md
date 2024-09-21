@@ -57,6 +57,7 @@ smaller dataset.                                                                
 ## Performance metrics
 
 ## Loss function
+used categorical crossentropy as loss function
 
 ## Making predictions
 
