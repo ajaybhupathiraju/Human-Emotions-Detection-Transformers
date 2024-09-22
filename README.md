@@ -61,19 +61,16 @@ used categorical crossentropy as loss function
 ## Deployee model
 Deployee the model into my local machine using fastAPI.
 
-[**source code**](/deployement/ml_api.py)
+[**source code**](/deployement/api.py)
 
-Running a fastAPI server:
+Test Model using FastAPI swagger url.
 
-![alt text](images/deployee_to_fastAPI.jpg)
-
-
-Test Model:
-input : [40,1,2,140,289,0,0,172,0,0.0,1]
-
-![alt text](images/test_ml_model.jpg)
-
+input : uploaded an human face angry image to 
 
 Results:
 
-![alt text](images/results.jpg)
+![alt text](deployee/Test_model_swagger.jpg)
+
+
+ ![alt text](deployee/response.jpg)
+
