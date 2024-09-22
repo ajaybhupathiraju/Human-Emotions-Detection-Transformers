@@ -61,7 +61,7 @@ used categorical crossentropy as loss function
 ## Deployee model
 Deployee the model into my local machine using fastAPI.
 
-[**source code**](/deployement/api.py)
+[**source code**](deployee/app.py)
 
 Test Model using FastAPI swagger url.
 
