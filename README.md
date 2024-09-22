@@ -57,6 +57,10 @@ smaller dataset.                                                                
 used categorical crossentropy as loss function
 
 ## Making predictions
+Model is capable to predict 3 types of human face emotions
+-  angry
+-  happy
+-  sad
 
 ## Deployee model
 Deployee the model into my local machine using fastAPI.
